@@ -1,0 +1,327 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    ::selection{
+        background-color: #686A76;
+        color: white;
+    }
+
+    scroll-behavior: smooth;
+
+}
+
+
+#home {
+    position: relative;
+    font-family:OpenSans; 
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url('../IMAGES/background.jpeg');
+
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+color: white;
+
+
+h1{
+    font-size: 64px;
+    line-height: 77px;
+}
+p{
+    font-size: 22px;
+    line-height: 41px;
+    
+}
+
+.scroll-btn{
+    
+    width: 40px;
+    height: 60px;
+    background-color:transparent;
+    
+    position: absolute;
+
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+
+
+    .circle{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        animation: scroll 2s infinite;
+    }
+
+
+}
+.side-items{
+    position: fixed;
+    right: 0;
+    background-color: white;
+    /* width: 30px;
+    height: 80px; */
+    top: 30%;
+
+}
+
+
+
+
+
+
+}
+
+@keyframes scroll {
+
+    0% {
+
+        top: 0;
+        
+    }
+
+    25% {
+
+        top: 25%;
+        
+    }
+
+    100% {
+
+        top: 50%;
+        opacity: 0;
+        
+    }
+    
+}
+
+
+#about{
+i{
+    color: #686A76;
+}
+
+}
+
+#recentWork{
+
+    .nav-pills .nav-link.active{
+        color: black;
+        background-color: transparent  ;
+        border-bottom: 1px solid #686A76;
+    }
+
+    .nav-link {
+        color: gray;
+    }
+.card-image{
+
+}
+
+
+.card-image img{
+    transition: all 1s ease-in-out;
+}
+.card-image:hover img{
+    transform: scale(1.25);
+}
+
+.card-image:hover .image-layer{
+    opacity: 1;
+}
+
+
+.image-layer{
+
+    transition: all 1s ease-in-out   ;
+background-color: rgba(0, 0, 0, 0.5);
+opacity: 0;
+
+
+
+span{
+    margin-inline: 10px;
+    padding: 25px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+
+}
+
+span:hover {
+    background-color: #686a7683;
+    color: white;
+}
+
+inset: 0;
+
+
+}
+
+}
+
+#testimonials{
+
+    .slider{
+
+                    .carousel-indicators [data-bs-target] {
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        background-color: #686A76;
+
+                    }
+
+                    .carousel-indicators {
+                    position: relative;
+                        margin-top: 30px;
+                    }
+
+                    
+
+
+    }
+
+
+
+}
+
+
+
+#latestNews{
+
+.card{
+    border: none;
+
+
+
+    a{
+        transition: all 0.5s ease-in-out;
+        color: grey;
+    }
+
+    a i{
+        transition: all 0.5s ease-in-out;
+    }
+    a:hover{
+        color: blue;
+    }
+    a:hover i{
+        margin-left: 5px;
+    }
+}
+
+ .carousel-indicators [data-bs-target] {
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        background-color: #686A76;
+
+                    }
+
+                    .carousel-indicators {
+                    position: relative;
+                        margin-top: 30px;
+                    }
+
+
+}
+
+
+
+
+
+
+
+#feelingconvinced{
+
+button{
+    transition: all 0.5s ease-in-out;
+}
+
+    button:hover{
+        background-color: #1B1B1B;
+    }
+}
+
+
+#footer{
+    background-color: #1B1B1B;
+
+    p{
+        color: gray;
+    }
+    ul{
+        color: gray;
+    }
+
+
+    .lower-footer{
+
+        .facebook{
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-color: transparent;
+            border-radius: 50%;
+            transition: all 1s ease-in-out;
+
+        }
+        .facebook:hover{
+            background-color: white;
+            color: blue;
+        }
+
+        .google{
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-color: transparent;
+            border-radius: 50%;
+            transition: all 1s ease-in-out;
+
+        }
+        .google:hover{
+            background-color: red;
+            color: white;
+        }
+
+        .linkedin{
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-color: transparent;
+            border-radius: 50%;
+            transition: all 1s ease-in-out;
+
+        }
+        .linkedin:hover{
+            background-color: #0077B5;
+            color: white;
+        }
+        .twitter{
+            width: 20px;
+            height: 20px;
+            padding: 10px;
+            background-color: transparent;
+            border-radius: 50%;
+            transition: all 1s ease-in-out;
+
+        }
+        .twitter:hover{
+            background-color: #1DA1F2;
+            color: white;
+        }
+
+    }
+}
